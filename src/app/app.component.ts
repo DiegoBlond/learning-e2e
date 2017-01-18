@@ -9,9 +9,9 @@ export class AppComponent {
     title = 'app works!';
     valor1: number = 0;
     valor2: number = 0;
-    result: number = 0;
+    result;
 
     divide() {
-        this.result = this.valor1 / this.valor2;
+        this.result = this.valor1 / this.valor2 || 'não deu';
     }
 }

@@ -1,0 +1,11 @@
+input {
+    color: red;
+}
+
+h1 {
+    font-size: 11px;
+}
+
+input.input-title {
+    color: blue;
+}

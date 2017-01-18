@@ -1,0 +1,14 @@
+<h1>
+  {{title}}
+</h1>
+
+<div>
+    <input type="text" name="name" [(ngModel)]="title" class="input-title" />
+</div>
+
+<article>
+    <input type="number" name="name" value="" [(ngModel)]="valor1" />
+    <input type="number" name="name" value="" [(ngModel)]="valor2" />
+    <button (click)="divide()">divide</button>
+    <span>{{result}}</span>
+</article>

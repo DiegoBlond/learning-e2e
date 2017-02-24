@@ -13,11 +13,10 @@ export class AppComponent {
     result;
 
     divide() {
-        if (this.valor1 || this.valor2 || this.valor3) {
-            this.result = 'não deu';
-        }
-        else {
+        if (this.valor1 && this.valor2 && this.valor3) {
             this.result = this.valor1 / this.valor2 / this.valor3 || 'não deu';
+        } else {
+            this.result = 'não deu';
         }
     }
 

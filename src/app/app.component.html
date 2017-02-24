@@ -7,8 +7,8 @@
 </div>
 
 <article>
-    <input type="number" name="name" value="" [(ngModel)]="valor1" />
-    <input type="number" name="name" value="" [(ngModel)]="valor2" />
+    <input type="number" name="name" value="" [(ngModel)]="valor1" class="qa-first-field" />
+    <input type="number" name="name" value="" [(ngModel)]="valor2" class="qa-second-field"/>
     <button (click)="divide()">divide</button>
-    <span>{{result}}</span>
+    <span class="qa-result">{{result}}</span>
 </article>
